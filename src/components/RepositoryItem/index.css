@@ -47,3 +47,15 @@
   color: #1e293b;
   font-size: 13px;
 }
+
+@media (max-width: 523px) {
+  .repository-item-card-container {
+    width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .repository-item-card-container {
+    width: 230px;
+  }
+}
