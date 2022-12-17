@@ -1,0 +1,116 @@
+.git-hub-popular-repository-home-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-grow: 1;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.popular-main-heading {
+  font-family: Lobster;
+  width: 80%;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1e293b;
+}
+
+/* .extra-options-outer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.options-list-container {
+  list-style: none;
+  padding-left: 0;
+
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.all-repository-items-list-container {
+  list-style: none;
+  padding-left: 0;
+
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  flex-grow: 1;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-view-container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.failure-view-image {
+  width: 420px;
+}
+
+.something-went-wrong-heading {
+  font-family: Bree Serif;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .all-repository-items-list-container {
+    width: 95%;
+  }
+
+  .failure-view-container {
+    width: 90%;
+  }
+
+  .failure-view-image {
+    width: 70%;
+  }
+
+  .options-list-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .failure-view-image {
+    width: 85%;
+  }
+  .something-went-wrong-heading {
+    font-size: 22px;
+  }
+}

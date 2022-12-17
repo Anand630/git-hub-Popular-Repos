@@ -1,0 +1,49 @@
+.repository-item-card-container {
+  background-color: #f8f8ff;
+  box-shadow: 5px 10px 5px 6px #dbd8d8;
+  padding: 20px;
+  border-radius: 16px;
+  width: 210px;
+  margin: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item-avatar {
+  width: 100px;
+}
+
+.repo-name {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #e73959;
+  font-weight: 500;
+}
+
+.icon-and-data-container {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-count-icons {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.stars-count-data {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 13px;
+}
